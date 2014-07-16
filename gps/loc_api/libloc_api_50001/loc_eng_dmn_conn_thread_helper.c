@@ -29,7 +29,6 @@
 #include <stdio.h>
 
 #include "log_util.h"
-#include "platform_lib_includes.h"
 #include "loc_eng_dmn_conn_thread_helper.h"
 
 /*===========================================================================
@@ -396,4 +395,3 @@ int loc_eng_dmn_conn_join_thelper(struct loc_eng_dmn_conn_thelper * thelper)
 
     return result;
 }
-

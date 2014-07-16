@@ -32,7 +32,7 @@
 #include <linux/types.h>
 
 #include "log_util.h"
-#include "platform_lib_includes.h"
+
 #include "loc_eng_dmn_conn_glue_msg.h"
 #include "loc_eng_dmn_conn_handler.h"
 
@@ -220,4 +220,3 @@ int loc_eng_dmn_conn_glue_msgflush(int msgqid)
     } while(length);
     return length;
 }
-

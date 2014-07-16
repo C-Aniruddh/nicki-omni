@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Android Open Source Project
+ * Copyright (C) 2014 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,10 +14,19 @@
  * limitations under the License.
  */
 
-#ifndef _BDROID_BUILDCFG_H
-#define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "Xperia M"
-#define BTA_DISABLE_DELAY 1000
+package com.android.internal.telephony;
 
-#endif
+import android.content.Context;
+
+
+import com.android.internal.telephony.cdma.CdmaInformationRecords;
+
+public class SonyQualcomm8x27RIL extends RIL implements CommandsInterface {
+
+    public SonyQualcomm8x27RIL(Context context, int networkMode, int cdmaSubscription) {
+        super(context, networkMode, cdmaSubscription);
+
+    mQANElements = 5;
+   }  
+}

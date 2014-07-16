@@ -38,7 +38,7 @@
 #include <sys/stat.h>
 
 #include "log_util.h"
-#include "platform_lib_includes.h"
+
 #include "loc_eng_dmn_conn_glue_msg.h"
 #include "loc_eng_dmn_conn_handler.h"
 #include "loc_eng_dmn_conn.h"
@@ -267,4 +267,3 @@ int loc_eng_dmn_conn_loc_api_server_data_conn(int sender_id, int status) {
   }
   return 0;
 }
-

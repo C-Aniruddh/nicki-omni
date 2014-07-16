@@ -1,0 +1,8 @@
+[
+  {
+    "repository": "omnirom/android_hardware_sony_DASH",
+    "target_path": "hardware/sony/DASH",
+    "remote": "github",
+    "branch": "android-4.4"
+  }
+]
