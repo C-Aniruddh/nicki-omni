@@ -19,4 +19,3 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_PROVIDES_GPS_LOC_API),true)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
-endif
